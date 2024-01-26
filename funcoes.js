@@ -19,8 +19,8 @@ async function auth() {
     myHeaders.append('Content-Type', 'application/json');
 
     const corpoRequisicao = {
-        login: "infoway_multi_80429",
-        senha: "S@nta799"
+        login: "",
+        senha: ""
     };
 
     const requestOptions = {
