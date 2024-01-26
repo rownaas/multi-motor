@@ -6,11 +6,11 @@ const mysql = require('mysql2/promise');
 
 // Configurações do banco de dados
 const dbConfig = {
-    host: '192.168.70.44',
-    user: 'Admin',
-    password: 'S@nta799',
-    database: 'multiapi',
-    port: 3306
+    host: '',
+    user: '',
+    password: '',
+    database: '',
+    port: 
 };
 
 async function connectToDatabase() {
